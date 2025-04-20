@@ -2,16 +2,14 @@
 
     display: grid;
 
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px;
+
 }
 
 .container>*{
-
-    border: 2px solid black;
     border-radius: 15px;
-    margin: 10px
-    
+    margin: 10px;
 }
 
 .header{
@@ -23,4 +21,80 @@
 .aside{
 
     grid-row: span 2;
+    background-color: rgb(241, 143, 172);
+    text-align: center;
+    border: 2px solid rgb(243, 83, 131);
 }
+
+
+.section{
+
+    background-color: rgb(185, 162, 238);
+    text-align: center;
+    border: 2px solid rgb(156, 118, 245);
+}
+
+
+.header{
+
+    background-color: rgb(143, 240, 187);
+    border: 2px solid rgb(62, 240, 142);
+
+}
+
+.header>p{
+
+    margin: 10px 0px 0px 10px;
+}
+
+.nav{
+
+    display: block;
+    background-color: rgb(194, 134, 235);
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid rgb(175, 82, 236);
+}
+
+
+.footer{
+
+    display: block;
+    background-color: rgb(243, 238, 170);
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+
+    border: 2px solid rgb(231, 223, 100);
+    
+}
+
+
+.footer>p{
+
+    padding: 7px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+    
+}
+
+
+.nav>p{
+
+    padding: 7px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+    
+}
+
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
