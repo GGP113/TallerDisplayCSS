@@ -1,0 +1,26 @@
+.container{
+
+    display: grid;
+
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+.container>*{
+
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px
+    
+}
+
+.header{
+
+    grid-column: span 2;
+}
+
+
+.aside{
+
+    grid-row: span 2;
+}
