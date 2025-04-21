@@ -1,0 +1,164 @@
+.barra{
+
+    display: block;
+    width: 100hv;
+    margin: 5px;
+
+}
+
+.header{
+
+    height: 6rem;
+    background-color: rgb(222, 91, 82);
+    padding: 5px 0px 0px 5px;
+}
+
+
+.barraFooter{
+
+    background-color: rgb(223, 171, 212);
+    height: 3rem;
+    padding: 5px 0px 0px 5px;
+    
+}
+
+
+
+
+
+
+.container{
+
+    display: grid;
+    grid-template-columns: 1fr 0.5fr ;
+    grid-template-rows: 1fr 8fr;
+}
+
+
+.container>*{
+
+    
+    margin: 5px;
+ 
+
+}
+
+.main{
+
+    grid-row: span 2;
+
+    display: flex;
+
+    flex-direction: column;
+
+
+    align-items:center ;
+    justify-content: center;
+
+    gap: 5px;
+
+    background-color: rgb(56, 146, 220);
+   
+
+}
+
+.main>*{
+
+    
+    width: 29em;
+
+    background-color: rgb(67, 206, 107);
+   
+}
+
+
+
+
+.articles{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 0px 5px 0px;
+   
+
+
+
+
+}
+
+
+.articles>*{
+
+   
+    width: 27.5em;
+    height: 2.5em;
+    background-color: rgb(168, 252, 171);
+    padding: 5px 0px 0px 5px;
+    
+}
+
+.article2{
+
+    height: 6em;
+    padding: 5px 0px 0px 5px;
+}
+
+
+.footerMain{
+
+    height: 1.5em;
+    margin: 0px 0px 20px 0px;
+    background-color: rgb(223, 171, 212);
+    padding: 5px 0px 0px 5px;
+
+}
+
+
+
+div{ border-radius: 6px;}
+
+
+.nav{
+
+    background-color: rgb(233, 249, 114);
+    padding: 5px 0px 0px 5px;
+}
+
+.aside{
+
+    background-color: rgb(18, 181, 196);
+    padding: 5px 0px 0px 5px;
+}
+
+
+p{
+    margin: 0px 0px 0px 0px;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+
+
+.tittleMain{
+
+    background-color: rgb(56, 146, 220);
+    padding: 5px 0px 0px 0px;
+
+}
+
+.tittleArticle{
+
+    background-color: rgb(67, 206, 107);
+    height: 1em;
+    margin: 0px 0px 5px 0px;
+
+
+
+}
+
+ 
